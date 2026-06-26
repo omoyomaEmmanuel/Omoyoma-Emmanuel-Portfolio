@@ -10,28 +10,28 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
+      --black: #080808;
+      --white: #f5f5f0;
+      --electric: #00ffcc;
+      --electric-dim: #00c49a;
+      --electric-glow: rgba(0,255,204,0.12);
+      --gray-dark: #111111;
+      --gray-mid: #1a1a1a;
+      --gray-border: #2a2a2a;
+      --gray-text: #888;
+      --font-main: 'Space Grotesk', sans-serif;
+      --font-mono: 'Space Mono', monospace;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
       --background: #0A0A0A;
       --cards: #1A1A1A;
       --Gold: #FFD700;
       --Accent: #FFB800;
       --Text: #FFFFFF;
       --Grey: #9CA3AF;
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      background: var(--background);
-      cards: var(--cards);
-      Gold: var(--Gold);
-      Accent: var(--Accent);
-      Text: var(--Text);
-      Grey: var(--Grey);
-      color: var(--white);
-      font-family: var(--font-main);
-      font-size: 16px;
-      line-height: 1.6;
-      overflow-x: hidden;
     }
 
     /* ── NAV ── */
